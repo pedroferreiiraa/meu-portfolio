@@ -45,7 +45,7 @@
 @media (max-width: 800px) {
   .contato {
     grid-template-columns: 1fr;
-    padding-bottom: 200px;
+    padding-bottom: 400px;
   }
   .contato-dados,
   .contato-formulario {
