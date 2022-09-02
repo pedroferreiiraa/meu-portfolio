@@ -29,6 +29,7 @@
 .contato-formulario {
   border-radius: 0 5px 5px 0;
   background: var(--cor-0);
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .contato-dados h2 {
@@ -44,6 +45,7 @@
 @media (max-width: 800px) {
   .contato {
     grid-template-columns: 1fr;
+    padding-bottom: 200px;
   }
   .contato-dados,
   .contato-formulario {
