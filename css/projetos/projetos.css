@@ -55,3 +55,9 @@
   width: 24px;
 }
 
+@media (max-width: 800px) {
+ .projetos-lista {
+  padding-bottom: 60px;
+ }
+  
+}

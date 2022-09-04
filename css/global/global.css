@@ -26,3 +26,11 @@ img {
 img[src$=".jpg"] {
   border-radius: 4px;
 }
+
+.js .js-scroll {
+  opacity: 0;
+}
+
+.js .js-scroll.ativo {
+  opacity: 1;
+}

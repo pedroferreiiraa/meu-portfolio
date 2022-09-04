@@ -19,19 +19,18 @@
 
 
 <body>
-  <header class="header-bg">
-    <div class="header container">
-      <nav aria-label="primaria">
-        <ul class="header-menu font-1-m cor-0">
-          <li><a href=" ./sobre.html">Sobre</a></li>
-          <li><a href="./projetos.html">Projetos</a></li>
-          <li><a href="./contato.html">Contato</a></li>
-        </ul>
-      </nav>
+  <header class="header-bg ">
+    <nav aria-label="primaria" class="header container">
+      <ul class="header-menu font-1-m cor-0">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
     </div>
   </header>
 
-  <main class="introducao-bg">
+  <section class="introducao-bg">
     <div class="introducao container">
       <div class="introducao-conteudo">
         <h1 class="font-2-l cor-5"><span>Olá,</span> eu sou Pedro</h1>
@@ -40,9 +39,9 @@
       </div>
       <img src="./img/html 1.png" alt="Uma imagem representando códigos.">
     </div>
-  </main>
+  </section>
 
-  <article class="projetos-lista">
+  <section class="projetos-lista js-scroll" id="projetos">
     <h2 class="container font-1-xxl">projetos<span class="cor-p1">.</span></h2>
 
     <ul>
@@ -62,9 +61,9 @@
           <span class="font-2-m cor-8">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti</span>
         </a></li>
     </ul>
-  </article>
+  </section>
 
-  <article class="sobre-bg">
+  <section class="sobre-bg" data-anime="scroll" id="sobre">
     <div class="sobre container">
       <div class="sobre-conteudo">
         <span class="font-2-l-b cor-5">Conheça um pouco sobre mim</span>
@@ -105,9 +104,9 @@
       </div>
     </div>
     </div>
-  </article>
+  </section>
 
-  <section>
+  <section data-anime="scroll">
     <div>
       <div class="container">
         <h1 class="font-1-xxl cor-p1 h1-contato">contato<span class="cor-12">.</span></h1>
@@ -115,7 +114,7 @@
     </div>
 
     <div class="contato container">
-      <section class="contato-dados" aria-label="Endereço">
+      <section class="contato-dados" id="contato" aria-label="Endereço">
 
         <p class="font-2-m cor-0">Estou em busca de novas oportunidades para colaborar com pessoas e empresas, resolvendo problemas reais. Gosto de agregar valor, e não me limito a somente trabalhar para ganhar dinheiro.
           <br>
@@ -124,16 +123,16 @@
         </p>
         <h2 class="font-1-m cor-0">estou nas redes sociais abaixo</h2>
         <div class="contato-redes">
-          <a href="./">
+          <a href="https://github.com/pedroferreiiraa">
             <img src="./img/githubRed.svg" alt="GitHub">
           </a>
-          <a href="./">
+          <a href="https://www.linkedin.com/in/pedro-henrique-947807218">
             <img src="./img/linkedinRed.svg" alt="Linkedin">
           </a>
         </div>
       </section>
-      <section class="contato-formulario" aria-label="Formulário">
-        <form class="form" action="./contato.html">
+      <section class="contato-formulario" aria-label="Formulário" data-anime="scroll">
+        <form class="form" action="POST">
           <div class="col-2">
             <label for="nome">Nome</label>
             <input type="text" id="nome" name="nome" placeholder="Seu nome">
@@ -153,6 +152,7 @@
     </div>
   </section>
 
+  <script src="./js/script.js"></script>
 </body>
 
 </html>

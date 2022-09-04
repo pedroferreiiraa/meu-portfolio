@@ -47,6 +47,9 @@
     padding-top: 0px;
     padding-bottom: 0px;
   }
+  .sobre-conteudo span {
+    margin-top: 8px;
+  }
   .sobre-imagem  {
     display: initial;
     margin-bottom: 40px;
