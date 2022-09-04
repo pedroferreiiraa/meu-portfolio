@@ -8,7 +8,7 @@ function getDistanceFromTheTop(element) {
 
 function scrollToSection(event) {
   event.preventDefault();
-  const distanceFromTheTop = getDistanceFromTheTop(event.target) - 60;
+  const distanceFromTheTop = getDistanceFromTheTop(event.target) - 30;
   smoothScrollTo(0, distanceFromTheTop, 800);
 }
 
@@ -41,8 +41,3 @@ function smoothScrollTo(endX, endY, duration) {
     window.scroll(newX, newY);
   }, 1000 / 60);
 }
-
-//Formulário
-
-const form = document.querySelector('.form');
-console.log(form);

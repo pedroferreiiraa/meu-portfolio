@@ -1,5 +1,5 @@
 .projetos-lista {
-  padding-top: 60px;
+  padding-top: 30px;
   padding-bottom: 120px;
 }
 
@@ -21,6 +21,7 @@
   margin-left: auto;
   margin-right: auto;
   overflow-x: auto;
+  flex-wrap: wrap;
 }
 
 .projetos-lista li {
@@ -58,6 +59,9 @@
 @media (max-width: 800px) {
  .projetos-lista {
   padding-bottom: 60px;
+ }
+ .projetos-lista ul {
+  flex-wrap: nowrap;
  }
   
 }
