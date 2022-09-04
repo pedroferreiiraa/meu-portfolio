@@ -41,3 +41,8 @@ function smoothScrollTo(endX, endY, duration) {
     window.scroll(newX, newY);
   }, 1000 / 60);
 }
+
+//Formulário
+
+const form = document.querySelector('.form');
+console.log(form);
