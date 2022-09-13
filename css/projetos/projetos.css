@@ -35,6 +35,8 @@
 }
 
 .projetos-lista img {
+  max-width: 280px;
+  max-height: 280px;
   margin-bottom: 16px;
 }
 .projetos-lista h3{
@@ -62,6 +64,6 @@
  }
  .projetos-lista ul {
   flex-wrap: nowrap;
- }
-  
+ } 
 }
+

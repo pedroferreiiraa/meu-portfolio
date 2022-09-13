@@ -28,3 +28,15 @@ img[src$=".jpg"] {
   border-radius: 4px;
 }
 
+.animeLeft {
+  opacity: 0;
+  transform: translateX(-20px);
+  animation: animeLeft 0.3s forwards;
+}
+
+@keyframes animeLeft {
+  to {
+    opacity: 1;
+    transform: initial;
+  }
+}
